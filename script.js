@@ -23,7 +23,7 @@ const loop = setInterval(() => {
     eggman.style.left = `${eggmanPosition}px`;
 
     sonic.style.animation = "none";
-    sonic.src = "./Sonic-Loss.gif";
+    sonic.src = "./Sonic-loss.gif";
     sonic.style.width = "400px";
 
     fundo.src = "./Gameover.png";
