@@ -4,11 +4,11 @@ const fundo = document.querySelector(".fundo");
 
 const pulo = () => {
   sonic.classList.add("pulo");
-  sonic.src = "./pasta/Sonic-pulando.gif";
+  sonic.src = "./Sonic-pulando.gif";
 
   setTimeout(() => {
     sonic.classList.remove("pulo");
-    sonic.src = "./pasta/Sonic.gif";
+    sonic.src = "./Sonic.gif";
   }, 900);
 };
 
@@ -23,10 +23,10 @@ const loop = setInterval(() => {
     eggman.style.left = `${eggmanPosition}px`;
 
     sonic.style.animation = "none";
-    sonic.src = "./pasta/Sonic-Loss.gif";
+    sonic.src = "./Sonic-Loss.gif";
     sonic.style.width = "400px";
 
-    fundo.src = "./pasta/Gameover.png";
+    fundo.src = "./Gameover.png";
   }
 }, 10);
 
